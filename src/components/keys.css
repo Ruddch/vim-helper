@@ -1,6 +1,21 @@
+.key.backspace {
+    width: 6.4em;
+}
 .key.tab {
-   width: 4em;
+   width: 5em;
+}
+.key.\| {
+    width: 4.6em;
 }
 .key.caps {
-    width: 5em;
+    width: 6em;
+}
+.key.enter {
+    width: 7.6em;
+}
+.key.shift {
+    width: 8em;
+}
+.\? + .key.shift {
+    width: 9.6em;
 }

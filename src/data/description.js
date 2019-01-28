@@ -41,5 +41,15 @@ export default
     "k": "move cursor up",
     "K": "Run a program to lookup the keyword under the cursor. Use \":help K\" for more information ",
     "l": "move cursor right",
-    "L": "move to bottom of screen"
+    "L": "move to bottom of screen",
+    "@": "",
+    "#": "",
+    "$": "",
+    "%": "",
+    "^": "",
+    "&": "",
+    "*": "",
+    "(": "",
+    ")": "",
+    "0": "",
 }

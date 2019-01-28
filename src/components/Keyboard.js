@@ -50,7 +50,7 @@ class Keyboard extends Component {
 
     renderButtonList(data, key) {
         const buttons = data.map((v, i) =>
-            <Button onClick={this.handleClick} value={v} key={i}/>
+            <Button activeKey={this.state.key} onClick={this.handleClick} value={v} key={i}/>
         );
         return <ul key={key} className='buttonList'>
             {buttons}
@@ -59,9 +59,11 @@ class Keyboard extends Component {
     render() {
         const parsedData = keys.map(this.renderButtonList);
         return (
-            <div onKeyDown={this.handlePress} className='keyboard'>
-                {parsedData}
-                <Description text={descriptions[this.state.key]}/>
+            <div className={'wrapper'}>
+                <div onKeyDown={this.handlePress} className='keyboard'>
+                    {parsedData}
+                </div>
+                <Description title={this.state.key} text={descriptions[this.state.key]}/>
             </div>
         )
     }

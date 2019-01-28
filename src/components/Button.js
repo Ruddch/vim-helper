@@ -3,13 +3,13 @@ import './keys.css';
 
 class Button extends Component {
     render() {
-        const {onClick, value:{up, down}} = this.props;
+        const {onClick, activeKey, value:{up, down}} = this.props;
         return (
-            <li className={'key ' + down}>
-                <div onClick={() => onClick(up)}>
+            <li className={'key ' + up.toLowerCase()}>
+                <div className={activeKey === up ? 'active' : ''} onClick={() => onClick(up)}>
                     {up}
                 </div>
-                <div onClick={() => onClick(down)}>
+                <div className={activeKey === down ? 'active' : ''}  onClick={() => onClick(down)}>
                     {down}
                 </div>
             </li>
