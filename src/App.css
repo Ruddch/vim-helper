@@ -1,16 +1,22 @@
 .App {
-  text-align: center;
-  font-family: Roboto, sans-serif;
-  color: #ffffff;
-  font-size: small;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: small;
 }
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.App-main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.toggle-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
 h3 {
   font-weight: bold;
   font-size: 1.5em;

@@ -1,8 +1,10 @@
 .description {
     margin-top: 2em;
     padding: 1em;
-    min-height: 4em;
+    min-height: 7em;
     text-align: left;
-    color: black;
-    background: white;
+    white-space: pre-wrap;
+    width: 789px;
+    box-sizing: border-box;
+    line-height: 1.5em;
 }

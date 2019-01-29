@@ -164,7 +164,7 @@ export default
         },
         {
             "up": "\"",
-            "down": "\'"
+            "down": "'"
         },
         {
             "up": "Enter",

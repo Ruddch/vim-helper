@@ -4,8 +4,7 @@
     justify-content: flex-start;
     align-items: stretch;
     flex-direction: column;
-    background: linear-gradient(45deg, #F8F9FD, #F0F2FA);
-    box-shadow: 0 0 50px 0 rgba(48, 50, 58, 0.26);
+    border-radius: 6px;
 }
 
 .buttonList {
@@ -21,10 +20,7 @@
     width: 3.2em;
     height: 3.2em;
     margin: .3em;
-    background: #43454D;
     border-radius: 5px;
-    border: 1px solid #383941;
-    box-shadow: 0px 0px 16px 0px rgba(110, 119, 156, 0.26);
     cursor: pointer;
     font-size: small;
 }
@@ -38,12 +34,4 @@
 
 .key div:last-child {
     text-align: right;
-}
-
-.key div:hover {
-    color: #94FFEF;
-}
-
-.key div.active {
-    color: #94FFEF;
 }

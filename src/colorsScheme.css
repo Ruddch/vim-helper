@@ -1,0 +1,60 @@
+.App-main {
+    color: #ffffff;
+    background: linear-gradient(235deg, #c5c1ff, #fcd0d6);
+}
+.keyboard {
+    background-image: linear-gradient(45deg, #F8F9FD, #F0F2FA);
+    box-shadow: 0 0 50px 0 rgba(48, 50, 58, 0.26);
+}
+.key {
+    background: #43454D;
+    box-shadow: 0 0 16px 0 rgba(110, 119, 156, 0.26);
+    border: 1px solid #383941;
+}
+.key div:hover {
+    color: #94FFEF;
+}
+
+.key div.active {
+    color: #94FFEF;
+}
+
+.description {
+    color: black;
+    background: white;
+}
+
+.toggle-wrapper {
+    color: #000;
+}
+
+.dark.App-main {
+    color: #ffffff;
+    background: #2b2b2f;
+}
+.dark .keyboard {
+    background-blend-mode: normal, overlay;
+    background-image: linear-gradient(288deg, #3F414A, #4A4C56);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.26);
+}
+.dark .key {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.26);
+    background: linear-gradient(315deg, #282a2f, #222327);
+    border: 1px solid #282a2f;
+}
+.dark .key div:hover {
+    color: #94FFEF;
+}
+
+.dark .key div.active {
+    color: #94FFEF;
+}
+
+.dark .description {
+    color: #fff;
+    background-color: #474852
+}
+
+.dark .toggle-wrapper {
+    color: #fff;
+}
