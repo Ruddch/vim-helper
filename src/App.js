@@ -11,6 +11,9 @@ class App extends Component {
            dark: false,
         };
     }
+    componentDidMount() {
+        document.title = 'Vim helper';
+    }
     render() {
         return (
             <div className="App">
